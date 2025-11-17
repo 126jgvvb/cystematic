@@ -6,6 +6,7 @@ import { GlassPanel } from "./glassPanel";
 export const Core_advice = ({ keyN, mainText, imgURL, others = [], icon, children }) => {
   return (
     <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover" key={keyN}>
+   <div className="justify-center items-center">
       <div className="h-48 m-4 overflow-hidden relative">
         <GlassPanel text={mainText} />
       </div>
@@ -16,6 +17,7 @@ export const Core_advice = ({ keyN, mainText, imgURL, others = [], icon, childre
               <li key={key}>{other}</li>
             ))}
           </ul>
+        </div>
         </div>
 
       <div className="p-6 flex flex-col items-center justify-center space-y-3">

@@ -17,7 +17,7 @@ return ()=>window.removeEventListener('scroll',setScrollState);
     return(
         <div className={` relative bg-card text-white space-y-3 rounded-md sharpBorder p-15`} >
             <div className="animated-border space-x-5 flex rounded-lg mx-auto py-6 justify-center px-3 items-center" >
-            <div className="grid grid-cols-2 gap-12" >
+            <div className="hidden md:grid grid-cols-2 gap-12" >
             {children}
             </div>
            
