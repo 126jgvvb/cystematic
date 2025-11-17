@@ -153,7 +153,7 @@ return <nav className={cn("fixed w-full z-40 transition-all duration-300",
       </div>
 
         <ThemeToggle/>
-        <Menu className="md:hidden" onClick={()=>toggleMenu()} />
+        <Menu className="md:hidden w-10 h-10 ml-7" onClick={()=>toggleMenu()} />
 
 
 
